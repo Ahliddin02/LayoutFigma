@@ -1,0 +1,148 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 15vh;
+}
+.SliderApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SliderApp_title {
+    width: 447.81px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    text-align: center;
+}
+.SliderApp_text {
+    width: 525px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 5vh;
+}
+.card {
+    box-sizing: border-box;
+    width: 360px;
+    height: 230px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;  
+    padding: 28px 25px;
+    margin-top: 8vh;
+}
+.card_ {
+    box-sizing: border-box;
+    width: 360px;
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 28px 25px;
+    margin-top: 8vh;
+
+}
+.card_header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.card_title{ 
+    margin-right: 5vw;
+}
+.card_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #0B132A;
+}
+.card_region {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4F5665;
+}
+.card_text {
+    margin-top: 10px;
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #0B132A;
+}
+.slider_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 7vh;
+    padding-right: 5vw ;
+}
+.slider_footer {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1140px;
+    height: 233px;
+    margin-top: 12vh;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px 1px rgba(73, 73, 81, 0.2);
+}
+.sld_footer_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+.sld_footer_title {
+    width: 350.61px;
+    top: 4567.78px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+}
+.sld_footer_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    color: #4F5665;
+}
+.sld_footer_click {
+    width: 230px;
+    height: 50px;
+    background: #F53838;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -4px 20px 15px -3px rgba(245, 56, 56, 0.35);
+}
+.sld_footer_clickText {
+    width: 120px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+}

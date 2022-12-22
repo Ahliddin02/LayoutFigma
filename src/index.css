@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.slider-icon.right {
+  background: blue !important;
+  margin-top: 350px;
+  color: black;
+}
+.slider-icon.left {
+  background: blue !important;
+  margin-top: 350px;
+  color: black;
+  margin-left: 50rem;
+}
